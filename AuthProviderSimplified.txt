@@ -1,0 +1,20 @@
+Using AuthProvider simplified: 
+
+
+# App.js : 
+
+<AuthContext.Provider value={useFirebase()}>
+    <BrowserRouter>
+        <Switch>
+            <Route> </Route>
+            <Route> </Route>
+            <Route> </Route>
+            <Route> </Route>
+        </Switch>		
+    </BrowserRouter>
+</AuthContext.Provider>
+
+
+# Header.js : 
+
+const {user} = useContext(AuthContext)
