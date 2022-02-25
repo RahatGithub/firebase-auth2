@@ -4,6 +4,7 @@ const Shipping = () => {
     return (
         <div>
             <h2>This is shipping</h2>
+            <button>Check info</button>
         </div>
     );
 };
